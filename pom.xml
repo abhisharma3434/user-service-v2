@@ -11,8 +11,8 @@
 	<groupId>com.stanzaliving</groupId>
 	<artifactId>aclv2</artifactId>
 	<version>1.0.0</version>
-	<name>aclv2</name>
-	<description>ABAC Distributed system</description>
+	<name>userv2</name>
+	<description>Attribute based access control</description>
 	<properties>
 		<java.version>1.8</java.version>
 	</properties>
@@ -105,7 +105,32 @@
             <artifactId>commons-text</artifactId>
             <version>1.8</version>
         </dependency>
-    </dependencies>
+		<dependency>
+			<groupId>commons-validator</groupId>
+			<artifactId>commons-validator</artifactId>
+			<version>1.6</version>
+		</dependency>
+		<dependency>
+			<groupId>com.googlecode.libphonenumber</groupId>
+			<artifactId>libphonenumber</artifactId>
+			<version>8.12.27</version>
+		</dependency>
+		<dependency>
+			<groupId>org.redisson</groupId>
+			<artifactId>redisson</artifactId>
+			<version>3.11.5</version>
+		</dependency>
+		<dependency>
+			<groupId>io.springfox</groupId>
+			<artifactId>springfox-swagger2</artifactId>
+			<version>2.9.2</version>
+		</dependency>
+		<dependency>
+			<groupId>io.springfox</groupId>
+			<artifactId>springfox-swagger-ui</artifactId>
+			<version>2.9.2</version>
+		</dependency>
+	</dependencies>
 
 	<build>
 		<plugins>
